@@ -5,5 +5,10 @@
   "main": "index.js",
   "repository": "https://github.com/sofalse/isanyof",
   "author": "sofalse <j989898@gmail.com>",
+  "keywords": [
+  	"shorthand",
+  	"compare",
+  	"if"
+  ],
   "license": "GNU GPL v3"
 }
