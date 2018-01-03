@@ -1,0 +1,9 @@
+{
+  "name": "isanyof",
+  "version": "0.0.0",
+  "description": "isanyof",
+  "main": "server.js",
+  "author": {
+    "name": "sofalse"
+  }
+}
