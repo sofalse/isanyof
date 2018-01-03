@@ -1,9 +1,9 @@
 {
   "name": "isanyof",
-  "version": "0.0.0",
-  "description": "isanyof",
-  "main": "server.js",
-  "author": {
-    "name": "sofalse"
-  }
+  "version": "1.0.0",
+  "description": "Checks if variable is equal to any of given parameter ",
+  "main": "index.js",
+  "repository": "https://github.com/sofalse/isanyof",
+  "author": "sofalse <j989898@gmail.com>",
+  "license": "GNU GPL v3"
 }
