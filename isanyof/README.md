@@ -9,6 +9,8 @@ npm install isanyof
 
 **Usage:**
 ```javascript
+require('isanyof');
+
 var bool = true;
 var number = 3;
 var string = "string";
