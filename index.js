@@ -13,8 +13,24 @@ Boolean.prototype.isanyof = function (...args) {
     }
     return false
 }
+Boolean.prototype.iao = function (...args) {
+    for (arg of args) {
+        if (this == arg) {
+            return true
+        }
+    }
+    return false
+}
 
 Number.prototype.isanyof = function (...args) {
+    for (arg of args) {
+        if (this == arg) {
+            return true
+        }
+    }
+    return false
+}
+Number.prototype.iao = function (...args) {
     for (arg of args) {
         if (this == arg) {
             return true
@@ -31,6 +47,14 @@ String.prototype.isanyof = function (...args) {
     }
     return false
 }
+String.prototype.iao = function (...args) {
+    for (arg of args) {
+        if (this == arg) {
+            return true
+        }
+    }
+    return false
+}
 
 Symbol.prototype.isanyof = function (...args) {
     for (arg of args) {
@@ -40,8 +64,24 @@ Symbol.prototype.isanyof = function (...args) {
     }
     return false
 }
+Symbol.prototype.iao = function (...args) {
+    for (arg of args) {
+        if (this == arg) {
+            return true
+        }
+    }
+    return false
+}
 
 Object.prototype.isanyof = function (...args) {
+    for (arg of args) {
+        if (this == arg) {
+            return true
+        }
+    }
+    return false
+}
+Object.prototype.iao = function (...args) {
     for (arg of args) {
         if (this == arg) {
             return true

@@ -22,4 +22,8 @@ number.isanyof(true, false, 5, 3); // <- returns "true"
 string.isanyof(false, false, "2", ""); // <- returns "false"
 string.isanyof("string", "string", 123); // <- returns "true"
 
+// .isanyof(args...) has also a shorthand .iao(args...)
+
+number.iao(2,3,5, "pi") // <- returns "true"
+
 ```
