@@ -2,11 +2,13 @@
 
 Simple module that checks if variable is one of the given parameters. Works with bools, strings, numbers, symbols and objects.
 
-**Installation:**
-` npm install isanyof
-
-**Usage: **
+*Installation:*
 ```
+npm install isanyof
+```
+
+*Usage: *
+```javascript
 var bool = true;
 var number = 3;
 var string = "string";
