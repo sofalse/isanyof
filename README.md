@@ -1,6 +1,6 @@
 ﻿# isAnyOf
 
-Simple module that checks if variable is equal to one of the given parameters. Works with bools, strings, numbers, symbols and objects.
+Simple module that checks if variable is equal to one of the given parameters. Works with bools, strings and numbers.
 
 **Installation:**
 ```

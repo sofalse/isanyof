@@ -55,37 +55,3 @@ String.prototype.iao = function (...args) {
     }
     return false
 }
-
-Symbol.prototype.isanyof = function (...args) {
-    for (arg of args) {
-        if (this == arg) {
-            return true
-        }
-    }
-    return false
-}
-Symbol.prototype.iao = function (...args) {
-    for (arg of args) {
-        if (this == arg) {
-            return true
-        }
-    }
-    return false
-}
-
-Object.prototype.isanyof = function (...args) {
-    for (arg of args) {
-        if (this == arg) {
-            return true
-        }
-    }
-    return false
-}
-Object.prototype.iao = function (...args) {
-    for (arg of args) {
-        if (this == arg) {
-            return true
-        }
-    }
-    return false
-}
